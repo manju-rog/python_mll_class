@@ -1,0 +1,62 @@
+apps:
+  - id: "absence"
+    display_name: "Absence Management"
+    description: "View team absences, mark employees absent/present, date-range summaries."
+    keywords: ["absent", "leave", "on leave", "who was out", "attendance", "PTO", "paid time off", "holiday"]
+    neg_keywords: [
+      "leave the page", "left join", "leave it", "leave me alone", "maternity leave policy pdf", "absent minded"
+    ]
+    intents:
+      - name: "get_absences"
+        examples:
+          - "who was absent last week"
+          - "show yesterday's absences"
+          - "who is on leave today"
+        entities:
+          - name: "employee"
+            type: "PERSON"
+            required: false
+          - name: "date_range"
+            type: "DATE_RANGE"
+            required: false
+      - name: "mark_absent"
+        examples:
+          - "mark Manju absent for today"
+          - "mark Rahul on leave tomorrow"
+        entities:
+          - name: "employee"
+            type: "PERSON"
+            required: true
+          - name: "date"
+            type: "DATE"
+            required: true
+
+  - id: "tdo_drafting"
+    display_name: "TDO Drafting"
+    description: "Draft a Technical Design Outline given a short brief."
+    keywords: ["TDO", "technical design", "design outline", "draft spec", "architecture doc", "HLD"]
+    neg_keywords: ["todo", "to-do", "todo list", "checklist", "teacher day off"]
+    intents:
+      - name: "draft_tdo"
+        examples:
+          - "draft a TDO for invoice microservice"
+          - "create a technical design outline for absence API"
+        entities:
+          - name: "topic"
+            type: "TEXT"
+            required: true
+
+  - id: "cost_estimation"
+    display_name: "Cost Estimation & Predictions"
+    description: "Rough cost estimates and predictive ranges."
+    keywords: ["cost", "estimate", "prediction", "forecast", "budget", "pricing", "capex", "opex", "infra"]
+    neg_keywords: ["costco", "costume", "cost of living"]
+    intents:
+      - name: "estimate_cost"
+        examples:
+          - "predict next quarter costs"
+          - "estimate infra budget for new service"
+        entities:
+          - name: "scope"
+            type: "TEXT"
+            required: true

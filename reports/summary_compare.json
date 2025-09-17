@@ -1,0 +1,29 @@
+{
+  "sentence-transformers/all-mpnet-base-v2": {
+    "accuracy": 0.9975669099756691,
+    "macro_f1": 0.9939005230905096,
+    "best_thresholds": {
+      "tau": 0.5,
+      "delta": 0.0
+    },
+    "oos_tau": 0.08250506950022037
+  },
+  "intfloat/e5-base-v2": {
+    "accuracy": 0.9914841849148418,
+    "macro_f1": 0.9787386212268842,
+    "best_thresholds": {
+      "tau": 0.5,
+      "delta": 0.04
+    },
+    "oos_tau": 0.11828266326693349
+  },
+  "sentence-transformers/all-MiniLM-L12-v2": {
+    "accuracy": 0.9939172749391727,
+    "macro_f1": 0.9840287440979014,
+    "best_thresholds": {
+      "tau": 0.5,
+      "delta": 0.02
+    },
+    "oos_tau": 0.45333517524651246
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "embed_model": "sentence-transformers/all-mpnet-base-v2",
+  "dataset_size": 4107,
+  "test_size": 822,
+  "multiclass": {
+    "raw_accuracy": 0.9975669099756691,
+    "classification_report": "                 precision    recall  f1-score   support\n\n   OUT_OF_SCOPE      0.976     1.000     0.988        41\n        absence      1.000     1.000     1.000       544\ncost_estimation      1.000     0.985     0.992       134\n   tdo_drafting      0.990     1.000     0.995       103\n\n       accuracy                          0.998       822\n      macro avg      0.992     0.996     0.994       822\n   weighted avg      0.998     0.998     0.998       822\n",
+    "best_thresholds": {
+      "tau": 0.5,
+      "delta": 0.0,
+      "macro_f1": 0.9939005230905096,
+      "accuracy": 0.9975669099756691,
+      "oos_recall": 1.0
+    }
+  },
+  "oos_head": {
+    "roc_auc": 1.0,
+    "auprc": 1.0000000000000002,
+    "oos_tau": 0.08250506950022037,
+    "precision_at_tau": 0.9111111111111111,
+    "recall_at_tau": 1.0
+  }
+}

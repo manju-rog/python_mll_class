@@ -1,0 +1,10 @@
+text,gold,pred,type,confidence,message
+Hey andaza kharcha for authentication service,cost_estimation,OUT_OF_SCOPE,SAFE_REPLY,,"I might not be the right assistant for that. I handle Absence Management, TDO Drafting, and Cost Estimation. Try: 'who was absent last week', 'draft a TDO for the payroll service', or 'estimate infra costs for a new API'."
+TCO estiamte for absence API urgent,cost_estimation,absence,ROUTED,0.715,I can help with that via Absence (demo mode).
+bro TCO estiamte for paryoll service,cost_estimation,OUT_OF_SCOPE,SAFE_REPLY,,"This seems outside my scope. I cover Absence, TDO Drafting, and Cost Estimation."
+COST CENTER MAPPING,OUT_OF_SCOPE,cost_estimation,ROUTED,0.95,I can help with that via Cost Estimation (demo mode).
+ASSISTANT TCO ESTIAMTE FOR NTOIFICATION SSYTEM,cost_estimation,OUT_OF_SCOPE,SAFE_REPLY,,"I’m not fully sure what you mean. Do you want Absence details, a TDO draft, or a Cost estimate? A little more context will help me route you correctly."
+rough bugdet for mobile app,cost_estimation,OUT_OF_SCOPE,SAFE_REPLY,,"I might not be the right assistant for that. I handle Absence Management, TDO Drafting, and Cost Estimation. Try: 'who was absent last week', 'draft a TDO for the payroll service', or 'estimate infra costs for a new API'."
+assistant bereavement leave ploicy doc,OUT_OF_SCOPE,absence,ROUTED,0.95,I can help with that via Absence (demo mode).
+cost center mapping,OUT_OF_SCOPE,cost_estimation,ROUTED,0.95,I can help with that via Cost Estimation (demo mode).
+show abesnces in Auguts,absence,OUT_OF_SCOPE,SAFE_REPLY,,"This seems outside my scope. I cover Absence, TDO Drafting, and Cost Estimation."
