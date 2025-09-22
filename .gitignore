@@ -1,75 +1,27 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# Large model files
+models/
+*.pt
+*.safetensors
 
-# Virtual Environment
-.venv/
-venv/
-ENV/
-env/
+# Node modules
+node_modules/
+*/node_modules/
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# Large directories
+absence_ai/ai_absence/frontend/node_modules/
+absence_ai/ai_absence/
 
-# OS
-.DS_Store
-Thumbs.db
+# Database files
+*.db
 
-# Logs
-*.log
-uvicorn.log
-
-# Model files (large files)
-models/*.joblib
-models/*.pkl
-
-# Data files (can be regenerated)
-data/*.csv
-data/*.json
-data/*.png
-
-# Node.js (frontend)
-my-chat/node_modules/
-my-chat/dist/
-my-chat/.vite/
-my-chat/npm-debug.log*
-my-chat/yarn-debug.log*
-my-chat/yarn-error.log*
-
-# Environment variables
+# Environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.venv/
 
 # Cache
 .cache/
-*.cache
+__pycache__/
+*.pyc
 
-# Reports
-reports/*.json
-reports/*.csv
-reports/*.png
+# Logs
+*.log
